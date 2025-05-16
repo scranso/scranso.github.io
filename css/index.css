@@ -1,0 +1,107 @@
+/* palette: https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25 */
+
+body {
+    background-color: #FEFAE0;
+    font-family: Avenir;
+    /* color: #FEFAE0; */
+}
+
+.header {
+    background-color: #283618;
+    color: #FEFAE0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	align-items: center;
+}
+
+.container_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .header {
+        display: grid;
+        justify-items: center; 
+        align-items: start;
+        border-radius: 0.6rem;
+		margin: 0;
+        font-size: 20px;
+    }
+
+    .contact {
+        display: grid;
+        justify-items: center; 
+        align-items: start;
+        border-radius: 0.6rem;
+		margin: 0;
+        font-size: 15px;
+    }
+
+    .container_2 {
+        border-radius: 0.6rem;
+		margin: 0;
+    }
+
+    .container {
+        display: grid;
+		grid-template-columns: 1fr 2fr;
+		
+		gap: 1rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+    }
+}
+
+.summary {
+
+}
+
+.work {
+
+}
+
+.workItem1,
+.workItem2 {
+
+}
+
+.education {
+    
+}
+
+.edItem1,
+.edItem2 {
+
+}
+
+.skillsContainer {
+
+}
+
+.skillsList {
+    text-align: center;
+}
+
+.projects {
+
+}
+
+.proj1,
+.proj2,
+.proj3 {
+
+}
+
+a:link {
+    color: #DDA15E;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
