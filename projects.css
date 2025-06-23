@@ -7,8 +7,7 @@ body {
     background-color: #f4f4f4;
 }
 .container {
-    max-width: 800px;
-    margin: 20px auto;
+    margin: auto;
     padding: 20px;
     background: #fff;
     border-radius: 8px;
@@ -19,27 +18,63 @@ h2 {
     color: #04172b;
 }
 .header {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    /* border-radius: 50%;
+    border: #04172b; */
     text-align: center;
 }
 .header h1 {
     margin: 10px 0;
 }
 
-.section {
+/* .section {
     margin: 20px 0;
-}
-.section h2 {
+} */
+
+/* .section h2 {
     margin-bottom: 10px;
     padding-bottom: 5px;
     text-align: left;
     border-bottom: 4px solid;
     border-image: linear-gradient(to right, #15569c, #00b4d8);
     border-image-slice: 1;
+} */
+
+img {
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    width: clamp(150px, 20vw, 200px);
+    transition: width 0.3s ease;
 }
-.item {
-    margin-bottom: 15px;
+
+.repoBox {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    gap: 1rem;
 }
-.item p {
-    margin: 5px 0;
-    font-size: 14px;
+
+.profileSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    /* flex-wrap: wrap; */
+    
 }
+
+/* @media (min-width 500px) {
+    img {
+        width: 200px;
+    }
+
+} */
