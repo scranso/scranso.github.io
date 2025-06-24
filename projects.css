@@ -29,19 +29,6 @@ h2 {
     margin: 10px 0;
 }
 
-/* .section {
-    margin: 20px 0;
-} */
-
-/* .section h2 {
-    margin-bottom: 10px;
-    padding-bottom: 5px;
-    text-align: left;
-    border-bottom: 4px solid;
-    border-image: linear-gradient(to right, #15569c, #00b4d8);
-    border-image-slice: 1;
-} */
-
 img {
     margin-bottom: 1rem;
     border-radius: 50%;
@@ -72,9 +59,3 @@ img {
     
 }
 
-/* @media (min-width 500px) {
-    img {
-        width: 200px;
-    }
-
-} */
